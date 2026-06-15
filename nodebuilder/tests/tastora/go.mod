@@ -1,6 +1,6 @@
 module github.com/celestiaorg/celestia-node/nodebuilder/tests/tastora
 
-go 1.25.9
+go 1.25.11
 
 require (
 	cosmossdk.io/math v1.5.3
@@ -387,7 +387,7 @@ replace (
 )
 
 // align replacement with main go.mod so the go mod parity script correctly identifies a match
-replace github.com/consensys/gnark-crypto => github.com/consensys/gnark-crypto v0.18.0
+replace github.com/consensys/gnark-crypto => github.com/consensys/gnark-crypto v0.18.1
 
 replace github.com/ipfs/boxo => github.com/celestiaorg/boxo v0.29.0-fork-4
 

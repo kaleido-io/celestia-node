@@ -394,7 +394,7 @@ replace (
 )
 
 // align replacement with tastora so the go mod parity script correctly identifies a match
-replace github.com/consensys/gnark-crypto => github.com/consensys/gnark-crypto v0.18.0
+replace github.com/consensys/gnark-crypto => github.com/consensys/gnark-crypto v0.18.1
 
 replace github.com/ipfs/boxo => github.com/celestiaorg/boxo v0.29.0-fork-4
 
