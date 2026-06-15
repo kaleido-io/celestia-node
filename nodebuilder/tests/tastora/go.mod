@@ -1,6 +1,6 @@
 module github.com/celestiaorg/celestia-node/nodebuilder/tests/tastora
 
-go 1.25.9
+go 1.25.11
 
 require (
 	cosmossdk.io/math v1.5.3
@@ -10,7 +10,7 @@ require (
 	github.com/celestiaorg/tastora v0.8.0
 	github.com/cometbft/cometbft v0.38.17
 	github.com/containerd/errdefs v1.0.0
-	github.com/cosmos/cosmos-sdk v0.50.13
+	github.com/cosmos/cosmos-sdk v0.50.14
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.27.0
 	google.golang.org/grpc v1.79.3
