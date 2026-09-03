@@ -1,6 +1,6 @@
 module github.com/celestiaorg/celestia-node
 
-go 1.25.11
+go 1.26.0
 
 require (
 	cosmossdk.io/log v1.6.0
@@ -73,7 +73,7 @@ require (
 	go.opentelemetry.io/proto/otlp v1.10.0
 	go.uber.org/fx v1.24.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/crypto v0.55.0
+	golang.org/x/crypto v0.56.0
 	golang.org/x/sync v0.22.0
 	golang.org/x/text v0.41.0
 	google.golang.org/grpc v1.83.1
